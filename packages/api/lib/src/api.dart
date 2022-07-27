@@ -19,11 +19,19 @@ class Api {
     // create request
     final runningRequest = Uri.https(
       _url,
-      "/interview.mock.data/payload.json"
+      "/interview.mock.data/payload.json",
     );
 
     // action request
-    final runningResponse = await _httpClient.get(runningRequest);
+    final runningResponse = await _httpClient.get(
+      runningRequest,
+      headers: {
+        "Access-Control-Allow-Origin": "*", 
+        "Access-Control-Allow-Credentials": 'true',
+        "Access-Control-Allow-Headers": "Origin,Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,locale",
+        "Access-Control-Allow-Methods": "GET, POST, OPTIONS"    
+      }
+    );
     if (runningResponse.statusCode != 200) {
       throw GetQuizDataFailure();
     }  

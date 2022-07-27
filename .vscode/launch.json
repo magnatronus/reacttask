@@ -1,0 +1,65 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "reacttask",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "reacttask (profile mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "reacttask (release mode)",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "api",
+      "cwd": "packages/api",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "api (profile mode)",
+      "cwd": "packages/api",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "api (release mode)",
+      "cwd": "packages/api",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "repository",
+      "cwd": "packages/repository",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "repository (profile mode)",
+      "cwd": "packages/repository",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "repository (release mode)",
+      "cwd": "packages/repository",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    }
+  ]
+}
