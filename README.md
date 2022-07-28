@@ -9,7 +9,7 @@ This flutter project is derived from an interview question that was targeted at 
 
 
 ## Test Web release
-A test version of the Fluuter App can be found here https://magnatronus.github.io/react-web/#/
+A test version of the Flutter App can be found here https://magnatronus.github.io/react-web/#/
 
 This version uses a hard coded version of the API as the App had CORS issues accessing the API.
 
